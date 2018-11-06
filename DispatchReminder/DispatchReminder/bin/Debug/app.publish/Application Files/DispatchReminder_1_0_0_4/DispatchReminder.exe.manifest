@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DispatchReminder.exe" version="1.0.0.4" publicKeyToken="89c7889d2fe6cec1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DispatchReminder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DispatchReminder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DispatchReminder.exe" size="14760">
+      <assemblyIdentity name="DispatchReminder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1C7TyEcfgUSJnF3NFRbnpl6MBx+vqXLsCU9sPHwv3Zg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DispatchReminder.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CORP\e605753" issuerKeyHash="11f24a8aef604655210a739fc5adaecd127f6c50" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1Z2mbFSdWIaoIix3EWRZ/EzAYFEAsho9WtuycTomk5k=</DigestValue></Reference></SignedInfo><SignatureValue>U5fXj+N5J+ofpFpO8zDSTKYIyZjy9Wp3QH8Mj0UiWqFyWNJVpoS1IgCEZBUI3NnE1gbhWxlZluYYT8Oj/4EZmMzH51DLR1CGGhNbyrnpyDL7pcu1uxK81Nf2b6USilcjJHecQuczs4eswbSLeerdSZWd533YpKyppPIjjc6rRbI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4m8rTnCBUz2NPSHdioHeKgLKkUeaM1kbyd3SFO5WLuPc8vtpeHxJm130Yb8b2JNwohD5GbIg9g3V+GCQ9a+9DFUcA7UkA8csheu7SUpdfdgQcpH/cYR5iL5IV655urTA7GAJoZkztAt+hIIoeobcH4wuq4tadZQ5MKmUEHL+yyk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9993263a71b2db5a3d1ab2005160c04cfc596411772c22a886589d546ca69dd5" Description="" Url=""><as:assemblyIdentity name="DispatchReminder.exe" version="1.0.0.4" publicKeyToken="89c7889d2fe6cec1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CORP\e605753</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>scQJ0YVcItoEikwG3EISZ/cznenDj1FiZ7mlx9FmpuM=</DigestValue></Reference></SignedInfo><SignatureValue>aCUgiQh8ilFGjgcG09UKmDk+n70nfkZwzrqlHq6aPtlsTSespewKp/w8tTFTcVMpXK2b9c3C6NVxZ/fqc78IUYG5h8Z8i1WB6OW7FmsqSe+JpH6MmCPVZMFLH2FS/a8s4qznFki+bYF/hdSGGMopwQ//WRGGGUk12hslxHlT7Ao=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4m8rTnCBUz2NPSHdioHeKgLKkUeaM1kbyd3SFO5WLuPc8vtpeHxJm130Yb8b2JNwohD5GbIg9g3V+GCQ9a+9DFUcA7UkA8csheu7SUpdfdgQcpH/cYR5iL5IV655urTA7GAJoZkztAt+hIIoeobcH4wuq4tadZQ5MKmUEHL+yyk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQYrqtijMpKr5LEsOFS3kcWzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQwBPAFIAUABcAGUANgAwADUANwA1ADMwHhcNMTgwNzA2MTMwOTI2WhcNMTkwNzA2MTkwOTI2WjAjMSEwHwYDVQQDHhgAQwBPAFIAUABcAGUANgAwADUANwA1ADMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOJvK05wgVM9jT0h3YqB3ioCypFHmjNZG8nd0hTuVi7j3PL7aXh8SZtd9GG/G9iTcKIQ+RmyIPYN1fhgkPWvvQxVHAO1JAPHLIXru0lKXX3YEHKR/3GEeYi+SFeuebq0wOxgCaGZM7QLfoSCKHqG3B+MLquLWnWUOTCplBBy/sspAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAsMOBA56E009QPuqlaKh3FlOwL3B3TgvJYNoAw46zVUov1ortdsXD/vpMJuxDLpp4L9E6ELwG2hdQziXGVy0haNd1NSCi3ZL1qaHK2fXBL/KQWCKvpi9NHQBXW96y7hkt87jpPfU1Fwz2yVSaBFmkmWQYBgEY/IXSsGasjhGedKE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
